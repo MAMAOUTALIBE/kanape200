@@ -333,7 +333,6 @@ function submitForm(datasToPost) {
     try {
       const content = await response.json();
       let orderId = content.orderId;
-
       window.location.assign('confirmation.html?id=' + orderId);
     } catch (error) {
       console.log(error);
