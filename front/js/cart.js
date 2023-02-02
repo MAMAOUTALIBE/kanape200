@@ -280,7 +280,7 @@ order.addEventListener('click', (event) => {
       return true;
     } else {
       emailErrorMsg.innerText =
-        'Email invalide, merci de renseigner une adresse mail correcte, par exemple: jean.dupont@orange.fr';
+        'Email invalide, merci de renseigner une adresse mail correcte, par exemple: bahm2062@gmail.com';
       return false;
     }
   }

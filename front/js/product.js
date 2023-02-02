@@ -1,5 +1,5 @@
 'use strict';
-// Récup ID
+// Récuperation de  l'ID
 const urlSearchParams = new URLSearchParams(window.location.search);
 const id = urlSearchParams.get('id');
 
