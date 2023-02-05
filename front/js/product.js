@@ -86,7 +86,11 @@ button.addEventListener('click', () => {
   } else if (quantity > 100) {
     alert('La quantité maximum est 100!');
     return;
+  } else if (quantity <= 0){
+    alert('Merci de selection une quantité non negatif!')
+    return;
   }
+
 
   const product = {
     id: id,
